@@ -1,0 +1,135 @@
+body{
+    font-family:cursive;
+    color: aliceblue;
+}
+.pics img{
+    width:75%;
+    border: 10px solid pink;
+    text-align: center;
+    
+
+}
+.picture{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+}
+.pics {
+    background-image: radial-gradient(pink , purple);
+   padding: 100px;
+   border: 10px ridge pink;
+
+}
+.small{
+    width: 90%;
+}
+.cn{
+    text-align: center;
+    width: 450px;
+}
+.style{
+    text-decoration: none;
+    background-color: purple;
+    color: seashell;
+    padding: 20px;
+    width: 100px;
+}
+#navpic{
+    border: 10px ridge slategrey;
+}
+nav a img:hover {
+    background-color: slategrey;
+    transform: scale(2);
+  
+   
+}
+.menu{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.uni{
+    width: 50%;
+}
+.homebody{
+   background-image: linear-gradient(rgba(115, 115, 169, 0.666), pink);
+}
+.m-pics{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.m-pics img{
+    width: 80%;
+    border: 20px ridge ;
+    border-image: linear-gradient(blue , red);
+}
+.vid{
+    width: 500px;
+    margin: 0 auto;
+   
+}
+.deg{
+    text-decoration: none;
+    font-size: large;
+    background-color: lightblue;
+    padding: 5px;
+    color: lightcoral;
+    border: 6px double red;
+}
+.deg:hover{
+    background-image: linear-gradient(blue , cyan);
+}
+@media (max-width:600px)
+{
+  .m-pics{
+      display: flex;
+      flex-direction: column;
+  } 
+  .cn{
+      max-width: 200px;
+  }
+  .menu {
+    display: flex;
+    flex-direction:column;
+ align-items: center;
+ width: 400px;
+    
+  
+} 
+
+.menu img{
+    width: 250px;
+}
+/* .homebody h1{
+    max-width: 500px;
+} */
+.centre img{
+    display: flex;
+    align-items: center;
+ 
+    max-width: 100%;
+}
+nav p{
+    text-align: center;
+    margin-left: 40px;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    max-width: 200px;
+  
+} 
+.vid{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.vid video{
+    width: 300px;
+    margin: 0 auto;
+}
+
+}
