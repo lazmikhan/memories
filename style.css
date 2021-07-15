@@ -90,6 +90,12 @@ nav a img:hover {
   .cn{
       max-width: 200px;
   }
+  .pics img{
+      width: 100%;
+  }
+  .pics img:hover{
+      transform: scale(3);
+  }
   .menu {
     display: flex;
     flex-direction:column;
